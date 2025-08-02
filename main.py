@@ -10,7 +10,7 @@ nltk.download('stopwords')
 
 # Load dataset
 columns = ['id', 'topic', 'sentiment', 'text']
-df = pd.read_csv("D:/ProdigyInfoTech/PRODIGY_DS_04/twitter_sentiments.csv", names=columns, header=None)
+df = pd.read_csv("D:/ProdigyInfoTech/PRODIGY_DS_04/PRODIGY_DS_04/twitter_sentiments.csv", names=columns, header=None)
 
 # Ensure the text column is correctly named
 if 'text' not in df.columns:
